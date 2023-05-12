@@ -1,6 +1,6 @@
-package pkg1;
-`include "transaction.sv"
-endpackage
+// package pkg1;
+// `include "transaction.sv"
+// endpackage
 
 import pkg1::*;
 
@@ -22,7 +22,7 @@ class scoreboard;
             mon2scb.get(trans);
 
             // Chekcing AND operation
-            if (trans.operator_i == ALU_AND)
+          if (trans.operator_i == 7'b0010101)
             begin
                 
                 if (trans.result_o != trans.operand_a_i & trans.operand_b_i)
@@ -36,7 +36,7 @@ class scoreboard;
             end
 
             // Checking OR operation
-            if (trans.operator_i == ALU_OR)
+          if (trans.operator_i == 0101110)
             begin
                 
                 if (trans.result_o != trans.operand_a_i | trans.operand_b_i)
@@ -50,7 +50,7 @@ class scoreboard;
             end
 
             // Checking XOR operation
-            if (trans.operator_i == ALU_XOR)
+          if (trans.operator_i == 0101111)
             begin
                 
                 if (trans.result_o != trans.operand_a_i ^ trans.operand_b_i)

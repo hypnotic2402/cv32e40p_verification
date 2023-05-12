@@ -1,6 +1,6 @@
-package pkg1;
-`include "transaction.sv"
-endpackage
+// package pkg2;
+// `include "transaction.sv"
+// endpackage
 
 import pkg1::*;
 
@@ -22,7 +22,7 @@ class environment;
     virtual intf vif;
 
     // Constructor
-    function new(virtual intf vif)
+  function new(virtual intf vif);
 
         this.vif = vif;
         gen2driv = new();

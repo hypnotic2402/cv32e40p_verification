@@ -24,13 +24,22 @@ class generator;
     
     task main();
         repeat(repeat_count) begin
-
+			
+          trans.and_en.constraint_mode(1);
+          
             if (x == 0) begin
                 x = 1;
                 if(!trans.randomize()) $fatal("Gen :: trans randomisation failed");
-                trans.$display("Generator");
+//               trans.display("Generator : ");
                 trans.cg.sample();
                 gen2driv.put(trans);
+            end
+          	else begin
+              #30;
+              if(!trans.randomize()) $fatal("Gen :: Trans randomisation failed");
+//               trans.display("Generator : ");
+              trans.cg.sample();
+              gen2driv.put(trans);
             end
 
             count++;

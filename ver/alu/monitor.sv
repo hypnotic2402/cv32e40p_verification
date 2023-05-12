@@ -1,6 +1,6 @@
-package pkg1;
-`include "transaction.sv"
-endpackage
+// package pkg1;
+// `include "transaction.sv"
+// endpackage
 
 import pkg1::*;
 
@@ -26,6 +26,7 @@ class monitor;
                 trans.operand_b_i = vif.operand_b_i;
                 trans.operand_c_i = vif.operand_c_i;
                 trans.enable_i = vif.enable_i;
+          		trans.rst_n = vif.rst_n;
                 trans.vector_mode_i = vif.vector_mode_i;
                 trans.bmask_a_i = vif.bmask_a_i;
                 trans.bmask_b_i = vif.bmask_b_i;
@@ -41,7 +42,7 @@ class monitor;
 
             @(posedge vif.clk);
             mon2scb.put(trans);
-            trans.display("Monitor : ");
+//             trans.display("Monitor : ");
 
         end
 

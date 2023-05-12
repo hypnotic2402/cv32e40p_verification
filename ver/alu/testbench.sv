@@ -1,3 +1,4 @@
+
 `include "interface.sv"
 `include "test.sv"
 
@@ -9,7 +10,7 @@ module testbenchTop;
     intf i_intf(clk);
     test tes(i_intf);
 
-    cv32e40p_alu (
+    cv32e40p_alu alu(
         .clk(i_intf.clk),
         .rst_n(i_intf.rst_n),
         .enable_i(i_intf.enable_i),

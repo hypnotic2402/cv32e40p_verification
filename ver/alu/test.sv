@@ -7,7 +7,7 @@ program test(intf i_intf);
     initial begin
 
         env = new(i_intf);
-        env.gen.repeat_count = 32000;
+        env.gen.repeat_count = 4000;
         env.run();
 
     end

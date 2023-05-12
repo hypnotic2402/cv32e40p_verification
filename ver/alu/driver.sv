@@ -1,6 +1,6 @@
-package pkg1;
-`include "transaction.sv"
-endpackage
+// package pkg1;
+// `include "transaction.sv"
+// endpackage
 
 import pkg1::*;
 
@@ -38,9 +38,10 @@ class driver;
             vif.ex_ready_i <= trans.ex_ready_i;
             vif.clpx_shift_i <= trans.clpx_shift_i;
             vif.operator_i <= trans.operator_i;
+          	vif.rst_n <= trans.rst_n;
             
             @(posedge vif.clk);
-            trans.display("Driver :  ");
+//             trans.display("Driver :  ");
             numTransactions++;
 
 
