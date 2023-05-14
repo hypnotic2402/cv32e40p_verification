@@ -13,7 +13,7 @@ cv32e40p_fifo
 cv32e40p_fp_wrapper
 cv32e40p_hwloop_regs
 cv32e40p_id_stage
-cv32e40p_if_stage
+cv32e40p_if_stage            Asmita               Pending
 cv32e40p_int_controller
 cv32e40p_load_store_unit
 cv32e40p_mult
