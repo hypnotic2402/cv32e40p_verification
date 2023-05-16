@@ -22,7 +22,6 @@ class monitor;
         forever begin
 
             repeat(2)@(posedge vif.clk);
-            trans.clk = vif.clk;
             trans.rst_n = vif.rst_n;
             trans.req_i = vif.req_i;
             trans.branch_i = vif.branch_i;

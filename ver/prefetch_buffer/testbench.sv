@@ -12,7 +12,7 @@ module testbenchTop;
     intf i_intf(clk);
     test tes(i_intf);
 
-    cv32e40p_popcnt popcnt(
+    cv32e40p_prefetch_buffer prefetch_buffer(
             .clk(i_intf.clk),
             .rst_n(i_intf.rst_n),
             .req_i(i_intf.req_i),

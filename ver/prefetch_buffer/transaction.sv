@@ -6,7 +6,6 @@
 class transaction;
 
     // Defining IO's of AL
-    rand bit clk,
     rand bit rst_n,
 
     rand bit        req_i,

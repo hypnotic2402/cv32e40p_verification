@@ -9,7 +9,6 @@ endpackage
 
 interface intf( logic clk);
 
-     logic clk,
      logic rst_n,
 
      logic        req_i,

@@ -25,7 +25,6 @@ class driver;
             gen2driv.get(trans);
 
             @(posedge vif.clk);
-            vif.clk <= trans.clk;
             vif.rst_n <= trans.rst_n;
             vif.req_i <= trans.req_i;
             vif.branch_i <= trans.branch_i;
