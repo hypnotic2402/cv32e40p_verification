@@ -21,7 +21,7 @@ cv32e40p_obi_interface
 cv32e40p_popcnt								Saket								Done
 cv32e40p_prefetch_buffer      Arhant              Pending
 cv32e40p_prefetch_controller
-cv32e40p_register_file_ff (not used for synthesis)                     Asmita              Done
+cv32e40p_register_file_ff (not used for synthesis)                     Asmita                                           Done
 cv32e40p_sleep_unit
 cv32e40p_wrapper
 
