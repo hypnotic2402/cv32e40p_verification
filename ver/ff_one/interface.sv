@@ -1,6 +1,6 @@
 package pkg1;
 `include "transaction.sv"
-`include "opcode.sv"
+// `include "opcode.sv"
 endpackage
 
 // import pkg1::*;
