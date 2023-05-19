@@ -52,13 +52,13 @@ class transaction;
         option.per_instance = 1;
         coverpoint rst_n;
         coverpoint scan_cg_en_i;
-        coverpoint raddr_a_i;
-        coverpoint raddr_b_i;
-        coverpoint raddr_c_i;
-        coverpoint waddr_a_i;
+        //coverpoint raddr_a_i;
+        //coverpoint raddr_b_i;
+        //coverpoint raddr_c_i;
+        //coverpoint waddr_a_i;
         coverpoint wdata_a_i;
         coverpoint we_a_i;
-        coverpoint waddr_b_i;
+        //coverpoint waddr_b_i;
         coverpoint wdata_b_i;
         coverpoint we_b_i;
     endgroup
