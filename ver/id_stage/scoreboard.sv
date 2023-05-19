@@ -390,7 +390,7 @@ class scoreboard;
                         $display("time = %0d, SCOREBOARD : Error in testcase - OPCODE_STORE when not rst", $time);
                     end
 
-                    if(trans.instr_rdata_i[14:12] == 3'b000)
+                    if(trans.instr_rdata_i[14:12] == 3'b000 & trans.alu_operator_ex_o != 7'b0011000)
                     begin
                         if(trans.data_type_ex_o != 2'b10) //SB
                         begin
@@ -398,7 +398,7 @@ class scoreboard;
                         end
                     end
 
-                    if(trans.instr_rdata_i[14:12] == 3'b000)
+                    if(trans.instr_rdata_i[14:12] == 3'b001 & trans.alu_operator_ex_o != 7'b0011000)
                     begin
                         if(trans.data_type_ex_o != 2'b10) //SH
                         begin
@@ -406,7 +406,7 @@ class scoreboard;
                         end
                     end
 
-                    if(trans.instr_rdata_i[14:12] == 3'b010)
+                    if(trans.instr_rdata_i[14:12] == 3'b010 & trans.alu_operator_ex_o != 7'b0011000)
                     begin
                         if(trans.data_type_ex_o != 2'b00) //SW
                         begin
@@ -420,30 +420,28 @@ class scoreboard;
                     if(trans.alu_operator_ex_o != 7'b0011000)
                     begin
                         $display("time = %0d, SCOREBOARD : Error in testcase - OPCODE_LOAD when not rst", $time);
-
-                    end
-
-                    if(trans.instr_rdata_i[14:12] == 3'b000 || trans.instr_rdata_i[14:12] == 3'b100)
-                    begin
-                        if(trans.data_type_ex_o != 2'b10) //LB, LBU
+                        if(trans.instr_rdata_i[14:12] == 3'b000 || trans.instr_rdata_i[14:12] == 3'b100)
                         begin
-                            $display("time = %0d, SCOREBOARD : Error in testcase - OPCODE_LOAD - LB(U) when not rst", $time);
+                            if(trans.data_type_ex_o != 2'b10) //LB, LBU
+                            begin
+                                $display("time = %0d, SCOREBOARD : Error in testcase - OPCODE_LOAD - LB(U) when not rst", $time);
+                            end
                         end
-                    end
 
-                    if(trans.instr_rdata_i[14:12] == 3'b001 || trans.instr_rdata_i[14:12] == 3'b101)
-                    begin
-                        if(trans.data_type_ex_o != 2'b10) //LH, LHU
+                        if(trans.instr_rdata_i[14:12] == 3'b001 || trans.instr_rdata_i[14:12] == 3'b101)
                         begin
-                            $display("time = %0d, SCOREBOARD : Error in testcase - OPCODE_LOAD - LH(U) when not rst", $time);
+                            if(trans.data_type_ex_o != 2'b10) //LH, LHU
+                            begin
+                                $display("time = %0d, SCOREBOARD : Error in testcase - OPCODE_LOAD - LH(U) when not rst", $time);
+                            end
                         end
-                    end
 
-                    if(trans.instr_rdata_i[14:12] == 3'b010)
-                    begin
-                        if(trans.data_type_ex_o != 2'b00) //LW
+                        if(trans.instr_rdata_i[14:12] == 3'b010)
                         begin
-                            $display("time = %0d, SCOREBOARD : Error in testcase - OPCODE_STORE - LW when not rst", $time);
+                            if(trans.data_type_ex_o != 2'b00) //LW
+                            begin
+                                $display("time = %0d, SCOREBOARD : Error in testcase - OPCODE_STORE - LW when not rst", $time);
+                            end
                         end
                     end
                 end
