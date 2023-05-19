@@ -1,0 +1,491 @@
+m255
+K4
+z2
+Z0 !s99 nomlopt
+R0
+R0
+!s11f vlog 2021.1 2021.01, Jan 19 2021
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z1 dC:/Users/Yash Mogal/OneDrive - iiit-b/Sem-6/Verfication of SoC/Project/cv32e40p_verification/ver/popcnt
+T_opt
+Z2 !s11d SoC/Project/cv32e40p_verification/ver/lsu/work of 0 
+Z3 !s11d iiit-b/Sem-6/Verfication of 0 
+Z4 !s11d C:/Users/Yash Mogal/OneDrive 0 
+Z5 !s11d intf 1 0 
+Z6 !s11d SoC/Project/cv32e40p_verification/ver/lsu/work 1 0 
+R3
+Z7 !s11d Mogal/OneDrive - 0 
+Z8 !s11d testbench_sv_unit C:/Users/Yash 0 
+!s110 1684357481
+V@>S1F0[d;dB5K>zMDTJag2
+Z9 04 12 4 work testbenchTop fast 0
+=1-28cdc4c55de7-64654169-255-45bc
+Z10 !s124 OEM100
+Z11 o-quiet -auto_acc_if_foreign -work work
+Z12 tCvgOpt 0
+n@_opt
+Z13 OL;O;2021.1;73
+R1
+T_opt1
+R2
+R3
+R4
+R5
+R6
+R3
+R7
+R8
+!s110 1684470811
+V[eCWBQB^g]bmZW_YWEeXb0
+R9
+=1-28cdc4c55de7-6466fc1b-1f9-695c
+R10
+R11
+R12
+n@_opt1
+R13
+R1
+vcv32e40p_load_store_unit
+Z14 !s105 testbench_sv_unit
+Z15 DXx4 work 17 testbench_sv_unit 0 22 OR25H3MB12=acA]g1>4TQ2
+Z16 DXx6 sv_std 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
+Z17 !s110 1684486735
+!i10b 1
+!s100 PIgBKDiH;kcH=P>0b4kZS3
+IAe84J<8[[BdD16EePB`6k1
+S1
+Z18 dC:/Users/Yash Mogal/OneDrive - iiit-b/Sem-6/Verfication of SoC/Project/cv32e40p_verification/ver/lsu
+w1684314980
+8cv32e40p_load_store_unit.sv
+Z19 Fcv32e40p_load_store_unit.sv
+!i122 312
+L0 26 524
+Z20 VDg1SIo80bB@j0V0VzS_@n1
+Z21 OL;L;2021.1;73
+r1
+!s85 0
+31
+Z22 !s108 1684486735.000000
+Z23 !s107 scoreboard.sv|monitor.sv|driver.sv|transaction.sv|generator.sv|environment.sv|test.sv|interface.sv|cv32e40p_load_store_unit.sv|C:/Users/Yash Mogal/OneDrive - iiit-b/Sem-6/Verfication of SoC/Project/cv32e40p_verification/ver/lsu/testbench.sv|
+Z24 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|C:/Users/Yash Mogal/OneDrive - iiit-b/Sem-6/Verfication of SoC/Project/cv32e40p_verification/ver/lsu/testbench.sv|
+!i113 0
+Z25 o-work work -sv -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R12
+vcv32e40p_obi_interface
+R16
+!s110 1684486733
+!i10b 1
+!s100 WLl9EbD33H8mK]VcccbRN0
+Imj=YNeTWb:LbBkP?UMXn33
+S1
+R18
+w1679299661
+8C:/Users/Yash Mogal/OneDrive - iiit-b/Sem-6/Verfication of SoC/Project/cv32e40p_verification/ver/lsu/cv32e40p_obi_interface.sv
+FC:/Users/Yash Mogal/OneDrive - iiit-b/Sem-6/Verfication of SoC/Project/cv32e40p_verification/ver/lsu/cv32e40p_obi_interface.sv
+!i122 303
+L0 38 169
+R20
+R21
+r1
+!s85 0
+31
+Z26 !s108 1684486733.000000
+!s107 C:/Users/Yash Mogal/OneDrive - iiit-b/Sem-6/Verfication of SoC/Project/cv32e40p_verification/ver/lsu/cv32e40p_obi_interface.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|C:/Users/Yash Mogal/OneDrive - iiit-b/Sem-6/Verfication of SoC/Project/cv32e40p_verification/ver/lsu/cv32e40p_obi_interface.sv|
+!i113 0
+R25
+R12
+Xdriver_sv_unit
+Z27 !s115 intf
+R16
+DXx4 work 4 pkg1 0 22 54RIWLc`fXkMYE4ZCk8<?1
+Z28 !s110 1684486734
+ViEJK4<1MK`c>JRiQ31OYH2
+r1
+!s85 0
+!i10b 1
+!s100 612G;DgNJ6Zkj0gH7^k160
+IiEJK4<1MK`c>JRiQ31OYH2
+!i103 1
+S1
+R18
+Z29 w1684470567
+8C:/Users/Yash Mogal/OneDrive - iiit-b/Sem-6/Verfication of SoC/Project/cv32e40p_verification/ver/lsu/driver.sv
+FC:/Users/Yash Mogal/OneDrive - iiit-b/Sem-6/Verfication of SoC/Project/cv32e40p_verification/ver/lsu/driver.sv
+!i122 304
+Z30 L0 5 0
+R21
+31
+R26
+!s107 transaction.sv|C:/Users/Yash Mogal/OneDrive - iiit-b/Sem-6/Verfication of SoC/Project/cv32e40p_verification/ver/lsu/driver.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|C:/Users/Yash Mogal/OneDrive - iiit-b/Sem-6/Verfication of SoC/Project/cv32e40p_verification/ver/lsu/driver.sv|
+!i113 0
+R25
+R12
+Xenvironment_sv_unit
+R27
+R16
+Z31 DXx4 work 4 pkg1 0 22 1]HEXf6QcUQ0YaYa_1BWe2
+R28
+V7R?9Dl[>A@J403]RE1_5_1
+r1
+!s85 0
+!i10b 1
+!s100 ckHOiR=EA91eFB8<=Edc?2
+I7R?9Dl[>A@J403]RE1_5_1
+!i103 1
+S1
+R18
+R29
+8C:/Users/Yash Mogal/OneDrive - iiit-b/Sem-6/Verfication of SoC/Project/cv32e40p_verification/ver/lsu/environment.sv
+FC:/Users/Yash Mogal/OneDrive - iiit-b/Sem-6/Verfication of SoC/Project/cv32e40p_verification/ver/lsu/environment.sv
+Z32 Fgenerator.sv
+Z33 Ftransaction.sv
+Z34 Fdriver.sv
+Z35 Fmonitor.sv
+Z36 Fscoreboard.sv
+!i122 305
+R30
+R21
+31
+Z37 !s108 1684486734.000000
+!s107 scoreboard.sv|monitor.sv|driver.sv|transaction.sv|generator.sv|C:/Users/Yash Mogal/OneDrive - iiit-b/Sem-6/Verfication of SoC/Project/cv32e40p_verification/ver/lsu/environment.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|C:/Users/Yash Mogal/OneDrive - iiit-b/Sem-6/Verfication of SoC/Project/cv32e40p_verification/ver/lsu/environment.sv|
+!i113 0
+R25
+R12
+Xgenerator_sv_unit
+R16
+R28
+V_4BC?JenW7A;cfAoKF6>z1
+r1
+!s85 0
+!i10b 1
+!s100 CbA?aXg>?0dadFUB>mn7K2
+I_4BC?JenW7A;cfAoKF6>z1
+!i103 1
+S1
+R18
+Z38 w1684464609
+8C:/Users/Yash Mogal/OneDrive - iiit-b/Sem-6/Verfication of SoC/Project/cv32e40p_verification/ver/lsu/generator.sv
+FC:/Users/Yash Mogal/OneDrive - iiit-b/Sem-6/Verfication of SoC/Project/cv32e40p_verification/ver/lsu/generator.sv
+R33
+!i122 306
+Z39 L0 6 0
+R21
+31
+R37
+!s107 transaction.sv|C:/Users/Yash Mogal/OneDrive - iiit-b/Sem-6/Verfication of SoC/Project/cv32e40p_verification/ver/lsu/generator.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|C:/Users/Yash Mogal/OneDrive - iiit-b/Sem-6/Verfication of SoC/Project/cv32e40p_verification/ver/lsu/generator.sv|
+!i113 0
+R25
+R12
+Xinterface_sv_unit
+R16
+R31
+R28
+VB2iGc`P_je<jImL]=HIco3
+r1
+!s85 0
+!i10b 1
+!s100 lWCl_f^MR6hGBEaFHO:bP1
+IB2iGc`P_je<jImL]=HIco3
+!i103 1
+S1
+R18
+Z40 w1684470274
+8C:/Users/Yash Mogal/OneDrive - iiit-b/Sem-6/Verfication of SoC/Project/cv32e40p_verification/ver/lsu/interface.sv
+FC:/Users/Yash Mogal/OneDrive - iiit-b/Sem-6/Verfication of SoC/Project/cv32e40p_verification/ver/lsu/interface.sv
+!i122 307
+R39
+R21
+31
+R37
+!s107 C:/Users/Yash Mogal/OneDrive - iiit-b/Sem-6/Verfication of SoC/Project/cv32e40p_verification/ver/lsu/interface.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|C:/Users/Yash Mogal/OneDrive - iiit-b/Sem-6/Verfication of SoC/Project/cv32e40p_verification/ver/lsu/interface.sv|
+!i113 0
+R25
+R12
+Yintf
+R16
+R31
+R15
+R17
+R20
+r1
+!s85 0
+!i10b 1
+!s100 6>J9@AA1QCWUO3`?6IkF>1
+I4ARhReE`0n_F^dS5>XHn:3
+R14
+S1
+R18
+R40
+8interface.sv
+Z41 Finterface.sv
+!i122 312
+L0 10 0
+R21
+31
+R22
+R23
+R24
+!i113 0
+R25
+R12
+Xmonitor_sv_unit
+R27
+R16
+R31
+R28
+VmFCE@iP@V5hRk^da82PDi3
+r1
+!s85 0
+!i10b 1
+!s100 IBSS5UHH`hhAdfa5L=<E^0
+ImFCE@iP@V5hRk^da82PDi3
+!i103 1
+S1
+R18
+w1684467177
+8C:/Users/Yash Mogal/OneDrive - iiit-b/Sem-6/Verfication of SoC/Project/cv32e40p_verification/ver/lsu/monitor.sv
+FC:/Users/Yash Mogal/OneDrive - iiit-b/Sem-6/Verfication of SoC/Project/cv32e40p_verification/ver/lsu/monitor.sv
+!i122 308
+R30
+R21
+31
+R37
+!s107 C:/Users/Yash Mogal/OneDrive - iiit-b/Sem-6/Verfication of SoC/Project/cv32e40p_verification/ver/lsu/monitor.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|C:/Users/Yash Mogal/OneDrive - iiit-b/Sem-6/Verfication of SoC/Project/cv32e40p_verification/ver/lsu/monitor.sv|
+!i113 0
+R25
+R12
+Xopcode_sv_unit
+R16
+R28
+VbAS??gl`A]Vg97nTWgQ1b1
+r1
+!s85 0
+!i10b 1
+!s100 GO^EI3j_MocekFa_g@=Rj3
+IbAS??gl`A]Vg97nTWgQ1b1
+!i103 1
+S1
+R18
+w1684168066
+8C:/Users/Yash Mogal/OneDrive - iiit-b/Sem-6/Verfication of SoC/Project/cv32e40p_verification/ver/lsu/opcode.sv
+FC:/Users/Yash Mogal/OneDrive - iiit-b/Sem-6/Verfication of SoC/Project/cv32e40p_verification/ver/lsu/opcode.sv
+!i122 309
+Z42 L0 1 0
+R21
+31
+R37
+!s107 C:/Users/Yash Mogal/OneDrive - iiit-b/Sem-6/Verfication of SoC/Project/cv32e40p_verification/ver/lsu/opcode.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|C:/Users/Yash Mogal/OneDrive - iiit-b/Sem-6/Verfication of SoC/Project/cv32e40p_verification/ver/lsu/opcode.sv|
+!i113 0
+R25
+R12
+Xpkg1
+R16
+R17
+V1]HEXf6QcUQ0YaYa_1BWe2
+r1
+!s85 0
+!i10b 1
+!s100 IUBf;ZJ>?Te7I?mf09iMS0
+I1]HEXf6QcUQ0YaYa_1BWe2
+S1
+R18
+R29
+R34
+R33
+!i122 312
+R42
+R21
+31
+R22
+R23
+R24
+!i113 0
+R25
+R12
+Xscoreboard_sv_unit
+R16
+R31
+R28
+VOCQDET43G;o9_^<A2TKCI2
+r1
+!s85 0
+!i10b 1
+!s100 ;>C1[b``<_LkR9FPZd9Qe1
+IOCQDET43G;o9_^<A2TKCI2
+!i103 1
+S1
+R18
+w1684355457
+8C:/Users/Yash Mogal/OneDrive - iiit-b/Sem-6/Verfication of SoC/Project/cv32e40p_verification/ver/lsu/scoreboard.sv
+FC:/Users/Yash Mogal/OneDrive - iiit-b/Sem-6/Verfication of SoC/Project/cv32e40p_verification/ver/lsu/scoreboard.sv
+!i122 310
+R30
+R21
+31
+R37
+!s107 C:/Users/Yash Mogal/OneDrive - iiit-b/Sem-6/Verfication of SoC/Project/cv32e40p_verification/ver/lsu/scoreboard.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|C:/Users/Yash Mogal/OneDrive - iiit-b/Sem-6/Verfication of SoC/Project/cv32e40p_verification/ver/lsu/scoreboard.sv|
+!i113 0
+R25
+R12
+4test
+R16
+R31
+R15
+R17
+R20
+r1
+!s85 0
+!i10b 1
+!s100 SA24S^V?eQB0V2SLLQN0P3
+I8HS5_:WlI>Z>jngNN3BNK0
+R14
+S1
+R18
+w1684463534
+8test.sv
+Z43 Ftest.sv
+!i122 312
+L0 3 0
+R21
+31
+R22
+R23
+R24
+!i113 0
+R25
+R12
+Xtest_sv_unit
+R27
+R16
+R31
+R28
+Va49`UK6<?SJBDkoO4[bh21
+r1
+!s85 0
+!i10b 1
+!s100 mmdZScKUjCD=j];gO1F><1
+Ia49`UK6<?SJBDkoO4[bh21
+!i103 1
+S1
+R18
+R29
+8C:/Users/Yash Mogal/OneDrive - iiit-b/Sem-6/Verfication of SoC/Project/cv32e40p_verification/ver/lsu/test.sv
+FC:/Users/Yash Mogal/OneDrive - iiit-b/Sem-6/Verfication of SoC/Project/cv32e40p_verification/ver/lsu/test.sv
+Z44 Fenvironment.sv
+R32
+R33
+R34
+R35
+R36
+!i122 311
+R30
+R21
+31
+R37
+!s107 scoreboard.sv|monitor.sv|driver.sv|transaction.sv|generator.sv|environment.sv|C:/Users/Yash Mogal/OneDrive - iiit-b/Sem-6/Verfication of SoC/Project/cv32e40p_verification/ver/lsu/test.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|C:/Users/Yash Mogal/OneDrive - iiit-b/Sem-6/Verfication of SoC/Project/cv32e40p_verification/ver/lsu/test.sv|
+!i113 0
+R25
+R12
+Xtestbench_sv_unit
+R27
+R16
+R31
+R17
+VOR25H3MB12=acA]g1>4TQ2
+r1
+!s85 0
+!i10b 1
+!s100 TfMdnHoTRNoYUd4NgoBof3
+IOR25H3MB12=acA]g1>4TQ2
+!i103 1
+S1
+R18
+Z45 w1684470787
+Z46 8C:/Users/Yash Mogal/OneDrive - iiit-b/Sem-6/Verfication of SoC/Project/cv32e40p_verification/ver/lsu/testbench.sv
+Z47 FC:/Users/Yash Mogal/OneDrive - iiit-b/Sem-6/Verfication of SoC/Project/cv32e40p_verification/ver/lsu/testbench.sv
+R19
+R41
+R43
+R44
+R32
+R33
+R34
+R35
+R36
+!i122 312
+R39
+R21
+31
+R22
+R23
+R24
+!i113 0
+R25
+R12
+vtestbenchTop
+R16
+R31
+R15
+R17
+R20
+r1
+!s85 0
+!i10b 1
+!s100 c=;EE>d2ka<2je[]lb:A>3
+I9XCF_HO1i<Jm;7eI;lJ?B1
+R14
+S1
+R18
+R45
+R46
+R47
+!i122 312
+L0 6 47
+R21
+31
+R22
+R23
+R24
+!i113 0
+R25
+R12
+ntestbench@top
+Xtransaction_sv_unit
+R16
+R17
+VPdif]AlH0n4HX@FV8ciAf2
+r1
+!s85 0
+!i10b 1
+!s100 z0hDIMGL5zPW7TXD?6`2<1
+IPdif]AlH0n4HX@FV8ciAf2
+!i103 1
+S1
+R18
+R38
+8C:/Users/Yash Mogal/OneDrive - iiit-b/Sem-6/Verfication of SoC/Project/cv32e40p_verification/ver/lsu/transaction.sv
+FC:/Users/Yash Mogal/OneDrive - iiit-b/Sem-6/Verfication of SoC/Project/cv32e40p_verification/ver/lsu/transaction.sv
+!i122 313
+R39
+R21
+31
+R22
+!s107 C:/Users/Yash Mogal/OneDrive - iiit-b/Sem-6/Verfication of SoC/Project/cv32e40p_verification/ver/lsu/transaction.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|C:/Users/Yash Mogal/OneDrive - iiit-b/Sem-6/Verfication of SoC/Project/cv32e40p_verification/ver/lsu/transaction.sv|
+!i113 0
+R25
+R12

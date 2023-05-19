@@ -1,0 +1,51 @@
+# Current time Fri May 19 12:49:41 2023
+# Program = vish
+# Id = "2021.1"
+# Version = "2021.01"
+# Date = "Jan 19 2021"
+# Platform = win64
+
+Exception c0000005 has occurred at address 71f3db3f. Traceback:
+# 0    0x71f3db3f: 'Tcl_GetString + 0x1f'
+# 1    0x71f1fd49: 'TclListObjSetElement + 0x459'
+# 2    0x71f1ec05: 'Tcl_ListObjReplace + 0x75'
+# 3    0x4015f238: '<unknown (@0x4015f238)>'
+# 4    0x4015e32a: '<unknown (@0x4015e32a)>'
+# 5    0x40156df6: '<unknown (@0x40156df6)>'
+# 6    0x71e77103: 'TclNRRunCallbacks + 0x63'
+# 7    0x76b70d9a: 'Itcl_EvalMemberCode + 0x3ba'
+# 8    0x76b71f5b: 'Itcl_ExecMethod + 0x23b'
+# 9    0x76b79a19: 'Itcl_EvalArgs + 0x1c9'
+# 10   0x76b74cf1: 'Itcl_HandleInstance + 0x2c1'
+# 11   0x71e77103: 'TclNRRunCallbacks + 0x63'
+# 12   0x71e78974: 'Tcl_EvalEx + 0xa34'
+# 13   0x71e77f68: 'Tcl_EvalEx + 0x28'
+# 14   0x71cb431a: 'Tk_BindEvent + 0x91a'
+# 15   0x71cebd41: 'TkBindEventProc + 0x291'
+# 16   0x71cfc614: 'Tk_HandleEvent + 0x2f4'
+# 17   0x71cfb2da: 'TkDeleteThreadExitHandler + 0x31a'
+# 18   0x71f2a56d: 'Tcl_ServiceEvent + 0xed'
+# 19   0x71f2a9e4: 'Tcl_DoOneEvent + 0x184'
+# 20   0x40180c2d: 'mti_RPC + 0x8cd'
+# 21   0x401a90dd: 'Mtirpc_Init + 0x216ed'
+# 22   0x403cd950: 'Ucdb_Init + 0x34330'
+# 23   0x403cc467: 'Ucdb_Init + 0x32e47'
+# 24   0x4011f86a: '<unknown (@0x4011f86a)>'
+# 25   0x40129945: '<unknown (@0x40129945)>'
+# 26   0x71e77103: 'TclNRRunCallbacks + 0x63'
+# 27   0x4015edcb: '<unknown (@0x4015edcb)>'
+# 28   0x4015d7a9: '<unknown (@0x4015d7a9)>'
+# 29   0x4015629e: '<unknown (@0x4015629e)>'
+# 30   0x401560ba: '<unknown (@0x401560ba)>'
+# 31   0x71f6217c: 'TclServiceIdle + 0x6c'
+# 32   0x71f2a9f3: 'Tcl_DoOneEvent + 0x193'
+# 33   0x71cfaee5: 'Tk_MainLoop + 0x25'
+# 34   0x71d3d282: 'Tk_MainEx + 0x932'
+# 35   0x401ab032: 'Mtirpc_Init + 0x23642'
+# 36   0x401adc14: 'Mtirpc_Init + 0x26224'
+# 37   0x40771eb0: 'Tclsqlite3_Init + 0x1c000'
+# 38   0x8f5926ad: 'BaseThreadInitThunk + 0x1d'
+# 39   0x9126a9f8: 'RtlUserThreadStart + 0x28'
+StackWalk failed 0
+# End of Stack Trace
+

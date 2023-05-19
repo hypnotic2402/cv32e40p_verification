@@ -1,0 +1,109 @@
+{C:/Users/Yash Mogal/OneDrive - iiit-b/Sem-6/Verfication of SoC/Project/cv32e40p_verification/ver/lsu/driver.sv} {1 {vlog -work work -vopt -sv -stats=none {C:/Users/Yash Mogal/OneDrive - iiit-b/Sem-6/Verfication of SoC/Project/cv32e40p_verification/ver/lsu/driver.sv}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling package pkg1
+-- Compiling package driver_sv_unit
+-- Importing package pkg1
+
+Top level modules:
+	--none--
+
+} {} {}} {C:/Users/Yash Mogal/OneDrive - iiit-b/Sem-6/Verfication of SoC/Project/cv32e40p_verification/ver/lsu/generator.sv} {1 {vlog -work work -vopt -sv -stats=none {C:/Users/Yash Mogal/OneDrive - iiit-b/Sem-6/Verfication of SoC/Project/cv32e40p_verification/ver/lsu/generator.sv}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling package generator_sv_unit
+
+Top level modules:
+	--none--
+
+} {} {}} {C:/Users/Yash Mogal/OneDrive - iiit-b/Sem-6/Verfication of SoC/Project/cv32e40p_verification/ver/lsu/monitor.sv} {1 {vlog -work work -vopt -sv -stats=none {C:/Users/Yash Mogal/OneDrive - iiit-b/Sem-6/Verfication of SoC/Project/cv32e40p_verification/ver/lsu/monitor.sv}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling package monitor_sv_unit
+-- Importing package pkg1
+
+Top level modules:
+	--none--
+
+} {} {}} {C:/Users/Yash Mogal/OneDrive - iiit-b/Sem-6/Verfication of SoC/Project/cv32e40p_verification/ver/lsu/environment.sv} {1 {vlog -work work -vopt -sv -stats=none {C:/Users/Yash Mogal/OneDrive - iiit-b/Sem-6/Verfication of SoC/Project/cv32e40p_verification/ver/lsu/environment.sv}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling package environment_sv_unit
+-- Importing package pkg1
+-- Compiling package pkg1
+
+Top level modules:
+	--none--
+
+} {} {}} {C:/Users/Yash Mogal/OneDrive - iiit-b/Sem-6/Verfication of SoC/Project/cv32e40p_verification/ver/lsu/transaction.sv} {1 {vlog -work work -vopt -sv -stats=none {C:/Users/Yash Mogal/OneDrive - iiit-b/Sem-6/Verfication of SoC/Project/cv32e40p_verification/ver/lsu/transaction.sv}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling package transaction_sv_unit
+
+Top level modules:
+	--none--
+
+} {} {}} {C:/Users/Yash Mogal/OneDrive - iiit-b/Sem-6/Verfication of SoC/Project/cv32e40p_verification/ver/lsu/testbench.sv} {1 {vlog -work work -vopt -sv -stats=none {C:/Users/Yash Mogal/OneDrive - iiit-b/Sem-6/Verfication of SoC/Project/cv32e40p_verification/ver/lsu/testbench.sv}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling module cv32e40p_load_store_unit
+-- Compiling package testbench_sv_unit
+-- Importing package pkg1
+-- Compiling interface intf
+-- Compiling package pkg1
+-- Compiling program test
+-- Compiling module testbenchTop
+
+Top level modules:
+	testbenchTop
+
+} {} {}} {C:/Users/Yash Mogal/OneDrive - iiit-b/Sem-6/Verfication of SoC/Project/cv32e40p_verification/ver/lsu/test.sv} {1 {vlog -work work -vopt -sv -stats=none {C:/Users/Yash Mogal/OneDrive - iiit-b/Sem-6/Verfication of SoC/Project/cv32e40p_verification/ver/lsu/test.sv}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling package test_sv_unit
+-- Importing package pkg1
+-- Compiling package pkg1
+-- Compiling program test
+
+Top level modules:
+	test
+
+} {} {}} {C:/Users/Yash Mogal/OneDrive - iiit-b/Sem-6/Verfication of SoC/Project/cv32e40p_verification/ver/lsu/cv32e40p_obi_interface.sv} {2 {vlog -work work -vopt -sv -stats=none {C:/Users/Yash Mogal/OneDrive - iiit-b/Sem-6/Verfication of SoC/Project/cv32e40p_verification/ver/lsu/cv32e40p_obi_interface.sv}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling module cv32e40p_obi_interface
+** Warning: C:/Users/Yash Mogal/OneDrive - iiit-b/Sem-6/Verfication of SoC/Project/cv32e40p_verification/ver/lsu/cv32e40p_obi_interface.sv(130): (vlog-2583) [SVCHK] - Extra checking for conflicts with always_comb and always_latch variables is done at vopt time.
+** Warning: C:/Users/Yash Mogal/OneDrive - iiit-b/Sem-6/Verfication of SoC/Project/cv32e40p_verification/ver/lsu/cv32e40p_obi_interface.sv(139): (vlog-2583) [SVCHK] - Extra checking for conflicts with always_comb and always_latch variables is done at vopt time.
+** Warning: C:/Users/Yash Mogal/OneDrive - iiit-b/Sem-6/Verfication of SoC/Project/cv32e40p_verification/ver/lsu/cv32e40p_obi_interface.sv(147): (vlog-2583) [SVCHK] - Extra checking for conflicts with always_comb and always_latch variables is done at vopt time.
+** Warning: C:/Users/Yash Mogal/OneDrive - iiit-b/Sem-6/Verfication of SoC/Project/cv32e40p_verification/ver/lsu/cv32e40p_obi_interface.sv(156): (vlog-2583) [SVCHK] - Extra checking for conflicts with always_comb and always_latch variables is done at vopt time.
+** Warning: C:/Users/Yash Mogal/OneDrive - iiit-b/Sem-6/Verfication of SoC/Project/cv32e40p_verification/ver/lsu/cv32e40p_obi_interface.sv(157): (vlog-2583) [SVCHK] - Extra checking for conflicts with always_comb and always_latch variables is done at vopt time.
+** Warning: C:/Users/Yash Mogal/OneDrive - iiit-b/Sem-6/Verfication of SoC/Project/cv32e40p_verification/ver/lsu/cv32e40p_obi_interface.sv(158): (vlog-2583) [SVCHK] - Extra checking for conflicts with always_comb and always_latch variables is done at vopt time.
+** Warning: C:/Users/Yash Mogal/OneDrive - iiit-b/Sem-6/Verfication of SoC/Project/cv32e40p_verification/ver/lsu/cv32e40p_obi_interface.sv(159): (vlog-2583) [SVCHK] - Extra checking for conflicts with always_comb and always_latch variables is done at vopt time.
+** Warning: C:/Users/Yash Mogal/OneDrive - iiit-b/Sem-6/Verfication of SoC/Project/cv32e40p_verification/ver/lsu/cv32e40p_obi_interface.sv(160): (vlog-2583) [SVCHK] - Extra checking for conflicts with always_comb and always_latch variables is done at vopt time.
+** Warning: C:/Users/Yash Mogal/OneDrive - iiit-b/Sem-6/Verfication of SoC/Project/cv32e40p_verification/ver/lsu/cv32e40p_obi_interface.sv(161): (vlog-2583) [SVCHK] - Extra checking for conflicts with always_comb and always_latch variables is done at vopt time.
+** Warning: C:/Users/Yash Mogal/OneDrive - iiit-b/Sem-6/Verfication of SoC/Project/cv32e40p_verification/ver/lsu/cv32e40p_obi_interface.sv(164): (vlog-2583) [SVCHK] - Extra checking for conflicts with always_comb and always_latch variables is done at vopt time.
+** Warning: C:/Users/Yash Mogal/OneDrive - iiit-b/Sem-6/Verfication of SoC/Project/cv32e40p_verification/ver/lsu/cv32e40p_obi_interface.sv(165): (vlog-2583) [SVCHK] - Extra checking for conflicts with always_comb and always_latch variables is done at vopt time.
+** Warning: C:/Users/Yash Mogal/OneDrive - iiit-b/Sem-6/Verfication of SoC/Project/cv32e40p_verification/ver/lsu/cv32e40p_obi_interface.sv(166): (vlog-2583) [SVCHK] - Extra checking for conflicts with always_comb and always_latch variables is done at vopt time.
+** Warning: C:/Users/Yash Mogal/OneDrive - iiit-b/Sem-6/Verfication of SoC/Project/cv32e40p_verification/ver/lsu/cv32e40p_obi_interface.sv(167): (vlog-2583) [SVCHK] - Extra checking for conflicts with always_comb and always_latch variables is done at vopt time.
+** Warning: C:/Users/Yash Mogal/OneDrive - iiit-b/Sem-6/Verfication of SoC/Project/cv32e40p_verification/ver/lsu/cv32e40p_obi_interface.sv(168): (vlog-2583) [SVCHK] - Extra checking for conflicts with always_comb and always_latch variables is done at vopt time.
+** Warning: C:/Users/Yash Mogal/OneDrive - iiit-b/Sem-6/Verfication of SoC/Project/cv32e40p_verification/ver/lsu/cv32e40p_obi_interface.sv(169): (vlog-2583) [SVCHK] - Extra checking for conflicts with always_comb and always_latch variables is done at vopt time.
+
+Top level modules:
+	cv32e40p_obi_interface
+
+} {} {}} {C:/Users/Yash Mogal/OneDrive - iiit-b/Sem-6/Verfication of SoC/Project/cv32e40p_verification/ver/lsu/interface.sv} {1 {vlog -work work -vopt -sv -stats=none {C:/Users/Yash Mogal/OneDrive - iiit-b/Sem-6/Verfication of SoC/Project/cv32e40p_verification/ver/lsu/interface.sv}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling package interface_sv_unit
+-- Importing package pkg1
+-- Compiling interface intf
+
+Top level modules:
+	--none--
+
+} {} {}} {C:/Users/Yash Mogal/OneDrive - iiit-b/Sem-6/Verfication of SoC/Project/cv32e40p_verification/ver/lsu/cv32e40p_load_store_unit.sv} {1 {vlog -work work -vopt -sv -stats=none {C:/Users/Yash Mogal/OneDrive - iiit-b/Sem-6/Verfication of SoC/Project/cv32e40p_verification/ver/lsu/cv32e40p_load_store_unit.sv}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling module cv32e40p_load_store_unit
+
+Top level modules:
+	cv32e40p_load_store_unit
+
+} {} {}} {C:/Users/Yash Mogal/OneDrive - iiit-b/Sem-6/Verfication of SoC/Project/cv32e40p_verification/ver/lsu/opcode.sv} {1 {vlog -work work -vopt -sv -stats=none {C:/Users/Yash Mogal/OneDrive - iiit-b/Sem-6/Verfication of SoC/Project/cv32e40p_verification/ver/lsu/opcode.sv}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling package opcode_sv_unit
+
+Top level modules:
+	--none--
+
+} {} {}}
