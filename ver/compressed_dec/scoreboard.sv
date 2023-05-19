@@ -9,6 +9,7 @@ class scoreboard;
     mailbox mon2scb;
     int numTransactions;
     transaction trans;
+    
     parameter OPCODE_OP = 7'h33;
     parameter OPCODE_OPIMM = 7'h13;
     parameter OPCODE_STORE = 7'h23;
