@@ -53,6 +53,7 @@ class environment;
         wait(gen.transactionGenEnd.triggered);
         wait(gen.repeat_count == driv.numTransactions);
         wait(gen.repeat_count == scb.numTransactions);
+        scb.hitMissDisplay();
 
     endtask
 
