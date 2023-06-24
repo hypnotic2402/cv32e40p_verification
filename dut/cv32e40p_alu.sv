@@ -25,11 +25,6 @@
 //                                                                            //
 ////////////////////////////////////////////////////////////////////////////////
 
-`include "cv32e40p_pkg.sv"
-`include "cv32e40p_popcnt.sv"
-`include "cv32e40p_ff_one.sv"
-`include "cv32e40p_alu_div.sv"
-
 module cv32e40p_alu
   import cv32e40p_pkg::*;
 (
